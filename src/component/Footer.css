@@ -1,0 +1,25 @@
+.pagination {
+    margin-left: auto;
+    margin-right: 20px; /* Adjusts space from the right edge */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between buttons */
+}
+
+.pagination button {
+    background-color: yellow; /* Button color */
+    border: none;
+    padding: 10px 15px; /* Adjusts button size */
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.pagination button:hover {
+    background-color: orange; /* Change on hover */
+}
+
+.pagination button:disabled {
+    background-color: lightgray; /* Disabled button color */
+    cursor: not-allowed; /* Change cursor for disabled */
+}
